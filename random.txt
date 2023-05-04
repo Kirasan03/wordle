@@ -1,0 +1,5 @@
+/word?number=2&length=5
+? para separar indicando parametros
+& para separar parametros
+
+fetch es una funcion asincrona 
