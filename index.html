@@ -2,20 +2,17 @@
 <html>
   <head>
     <title>Wordle PPY</title>
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Wordle PPY</h1>
+    <img src="wordle.jpg" alt="Una imagen" />
     <p class="parr">Ingresa 5 letras y adivina la palabra</p>
-
     <form onsubmit="event.preventDefault();" action="">
-      <input type="text" id="guess-input">
+      <input type="text" id="guess-input" class="input-modificado" />
       <button id="guess-button">Intentar</button>
     </form>
-    <div id="grid">
-    </div>
-    <p id="guesses">
-        
+    <div id="grid"></div>
+    <p id="guesses"></p>
   </body>
 </html>
